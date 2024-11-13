@@ -37,7 +37,7 @@ How to build interactive terminal UIs in Go using Bubble Tea
 </div>
 
 <a v-drag="'haykot-logo'" href="https://haykot.dev" target="_blank">
-  <img src="/images/haykot-logo.jpg"
+  <img src="/public/images/haykot-logo.jpg"
 </a>
 
 ---
@@ -58,7 +58,7 @@ dragPos:
 - Originally From Alaska, moved to Minnesota in summer of 2023
 - I love cycling, running, and skiing
 
-<img src="/images/headshot.jpg" class="rounded-full" v-drag="'headshot'" />
+<img src="/public/images/headshot.jpg" class="rounded-full" v-drag="'headshot'" />
 
 ---
 ---
@@ -76,7 +76,7 @@ dragPos:
 
 ---
 layout: image
-image: /images/lazygit-demo.gif
+image: /public/images/lazygit-demo.gif
 ---
 
 ---
@@ -93,7 +93,7 @@ dragPos:
   - [Harmonica](https://github.com/charmbracelet/harmonica) - A simple, physics-based animation library
 - Checkout [charm.sh](https://charm.sh/) for all their projects
 
-<img src="/images/bubble-tea.png" v-drag="'bubbletea'" />
+<img src="/public/images/bubble-tea.png" v-drag="'bubbletea'" />
 
 ---
 layout: section
@@ -166,7 +166,7 @@ func TUI(ctx context.Context) error {
 
 # The Basics: The Render Loop
 
-<img src="/images/renderloop.png"/>
+<img src="/public/images/renderloop.png"/>
 
 ---
 ---
