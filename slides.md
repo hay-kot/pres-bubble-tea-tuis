@@ -180,9 +180,37 @@ func TUI(ctx context.Context) error {
 - Running async tasks
 
 ---
+layout: two-cols
+dragPos:
+  presentation: 492,280,179,166
+  qrcode: 57,280,179,166
 ---
 
-# Thanks!
+### Linkedin
 
-// TODO: social links, website plug, QR Codes etc...
+[www.linkedin.com/in/hay-kot/](https://linkedin.com/in/hay-kot/)
 
+<br/>
+<br/>
+
+### My Website
+
+[haykot.dev](https://haykot.dev)
+
+<img src="/images/qr-haykot.dev.png" v-drag="`qrcode`"/>
+
+
+::right::
+
+### Bluesky
+
+[bsky.app/profile/haykot.dev](https://bsky.app/profile/haykot.dev)
+
+<br/>
+<br/>
+
+### This Presentation
+
+[hay-kot.github.io/pres-bubble-tea-tuis](https://hay-kot.github.io/pres-bubble-tea-tuis/1)
+
+<img src="/images/qr-presentation.png" v-drag="`presentation`"/>
