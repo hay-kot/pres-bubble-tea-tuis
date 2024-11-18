@@ -1,11 +1,10 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# Build Terminal User Interfaces in Go
 
-To start the slide show:
+How to build interactive terminal UIs in Go Using Bubble Tea
 
-- `npm install`
-- `npm run dev`
-- visit <http://localhost:3030>
+- [Presentation](https://hay-kot.github.io/pres-bubble-tea-tuis/1)
 
-Edit the [slides.md](./slides.md) to see the changes.
+## Other Resources
 
-Learn more about Slidev at the [documentation](https://sli.dev/).
+- [Tips for building Bubble Tea programs](https://leg100.github.io/en/posts/building-bubbletea-programs/) (not mine!)
+- [Official Examples From Bubble Tea](https://github.com/charmbracelet/bubbletea/tree/main/examples#examples)
