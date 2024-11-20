@@ -50,7 +50,7 @@ dragPos:
 - Staff Software Engineer (Johnson Controls)
 - Mostly writing C# day-to-day
 - Written applications in Go, C#, Python, JavaScript, and Rust
-- Launched a Sass Application
+- Launched a Saas Application
   - [Recipinned](https://recipinned.com) - Recipinned allows you to import Recipes from the web, access step-by-step cooking instructions, plan and shop for your meals, and create your one of a kind cookbook.
 - Open Source Contributor [github.com/hay-kot](https://github.com/hay-kot)
   - Mealie (Recipe Manager) 10m+ downloads
