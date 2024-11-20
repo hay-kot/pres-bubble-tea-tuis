@@ -89,7 +89,7 @@ dragPos:
 - Bubble Tea is a Framework for Build TUIs in Go
 - Ships with several companion libraries
   - [Bubbles](https://github.com/charmbracelet/bubbles) - Common Component Library
-  - [Lipgloss](https://github.com/charmbracelet/lipgloss) - Css Like Style Framekwork
+  - [Lipgloss](https://github.com/charmbracelet/lipgloss) - CSS Like Style Framework
   - [Harmonica](https://github.com/charmbracelet/harmonica) - A simple, physics-based animation library
 - Checkout [charm.sh](https://charm.sh/) for all their projects
 
