@@ -129,6 +129,40 @@ This is the core type that you'll use to create your interactive elements
 ---
 ---
 
+# The Basics: The Render Loop
+
+<img src="/images/renderloop.png"/>
+
+---
+---
+
+# The Basics: Commands and Messages
+
+```go
+// Cmd is an IO operation that returns a message when it's complete. If it's
+// nil it's considered a no-op. Use it for things like HTTP requests, timers,
+// saving and loading from disk, and so on.
+//
+// Note that there's almost never a reason to use a command to send a message
+// to another part of your program. That can almost always be done in the
+// update function.
+type Cmd func() Msg
+
+// Msg contain data from the result of a IO operation. Msgs trigger the update
+// function and, henceforth, the UI.
+type Msg interface{}
+```
+
+<br/>
+
+`Cmd` and `Msg` are the core types to create and dispatch events within the _"Loop"_
+
+
+---
+---
+
+
+
 # The Basics: Running The Model
 
 ````md magic-move {lines: true}
@@ -160,13 +194,6 @@ func TUI(ctx context.Context) error {
 
 - `tea.NewProgram` takes in a `Model` interface and starts the rendering loop.
 - `tea.WithAltScreen()` runs the application in 'take over mode' - it will take up the whole terminal screen.
-
----
----
-
-# The Basics: The Render Loop
-
-<img src="/images/renderloop.png"/>
 
 ---
 ---
