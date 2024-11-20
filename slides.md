@@ -47,7 +47,7 @@ dragPos:
 
 # About Me
 
-- Senior Software Engineer (Johnson Controls)
+- Staff Software Engineer (Johnson Controls)
 - Mostly writing C# day-to-day
 - Written applications in Go, C#, Python, JavaScript, and Rust
 - Launched a Sass Application
