@@ -8,7 +8,7 @@ How to build interactive terminal UIs in Go Using Bubble Tea
 
 - [Terminal Recorder (vhs)](https://github.com/charmbracelet/vhs)
 - [Bubble Tea Template](https://github.com/charmbracelet/bubbletea-app-template)
-- [Tips for building Bubble Tea programs](https://leg100.github.io/en/posts/building-bubbletea-programs/) (not mine!)
+- [Tips for building Bubble Tea programs](https://leg100.github.io/en/posts/building-bubbletea-programs/)
 - [Official Examples From Bubble Tea](https://github.com/charmbracelet/bubbletea/tree/main/examples#examples)
 
 ## Cool TUIs
